@@ -2,7 +2,7 @@ import boto3
 import json
 
 prompt_data="""
-Act as a Shakespeare and write a poem on Genertaive AI and also include the latest news on AI
+Explain Genertaive AI and also include the latest news on AI
 """
 
 bedrock=boto3.client(service_name="bedrock-runtime")
