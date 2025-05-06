@@ -59,6 +59,9 @@ This project showcases how **serverless LLMs from AWS** can be effectively integ
 - 🔍 Introduce **semantic search UI** or chatbot-style interface.
 - ☁️ Deploy Streamlit on **AWS EC2 / Lambda** for wider access.
 
+
+
+![App Screenshot](screenshot.UI_screenshot)
 ---
 
 

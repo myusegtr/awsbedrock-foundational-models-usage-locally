@@ -100,14 +100,14 @@ def get_response_llm(llm,vectorstore_faiss,query):
 def main():
     st.set_page_config("Chat PDF")
     
-    st.header("Chat with PDF using AWS Bedrock💁")
+    st.header("Document Chatbot Using AWS Bedrock Foundational Models💁")
 
-    user_question = st.text_input("Ask a Question from the PDF Files")
+    user_question = st.text_input("Ask anything about the uploaded documents")
 
     with st.sidebar:
-        st.title("Update Or Create Vector Store:")
+        st.title("Update Vector Store:")
         
-        if st.button("Vectors Update"):
+        if st.button("Update Vector Store"):
             with st.spinner("Processing..."):
                 docs = data_ingestion()
                 get_vector_store(docs)
